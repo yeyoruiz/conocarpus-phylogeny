@@ -46,9 +46,22 @@
 | Arboles retenidos por replica | 10 |
 | Outgroup | *Punica granatum* |
 
-### 3.2 Arboles mas parsimoniosos
+### 3.2 Estadisticas de los arboles
 
 Se encontraron **2 arboles igualmente parsimoniosos**.
+
+| Estadistica | Valor |
+|-------------|-------|
+| Longitud del arbol | **1,891** pasos |
+| Pasos minimos posibles | 1,325 |
+| Pasos maximos posibles | 3,079 |
+| **CI** (Consistency Index) | **0.7007** |
+| **RI** (Retention Index) | **0.6773** |
+| **RC** (Rescaled Consistency Index) | **0.4746** |
+
+Un CI de 0.70 indica un nivel moderado-alto de homoplasia en los datos, esperable para una supermatriz de 5 marcadores con taxa divergentes. El RI de 0.68 confirma que una proporcion sustancial de la similitud observada corresponde a sinapomorfias.
+
+### 3.3 Arboles mas parsimoniosos
 
 **Arbol 1:**
 ```
@@ -82,7 +95,7 @@ Punica_granatum (outgroup)
                         └── (Combretum_imberbe, (Combretum_molle, Combretum_laxum))
 ```
 
-### 3.3 Diferencias entre los 2 arboles
+### 3.4 Diferencias entre los 2 arboles
 
 | Caracter | Arbol 1 | Arbol 2 |
 |----------|---------|---------|
@@ -90,7 +103,7 @@ Punica_granatum (outgroup)
 | Posicion de *Calycopteris* | Hermana de (Terminalia + Combretum) | Hermana solo de Combretum |
 | Posicion de Lumnitzera | Hermana de (Laguncularia + core) | Hermana de core Combretaceae |
 
-### 3.4 Topologia del arbol de consenso (Bootstrap 2,000 replicas)
+### 3.5 Topologia del arbol de consenso (Bootstrap 2,000 replicas)
 
 ```
 Punica_granatum (outgroup)
@@ -108,7 +121,7 @@ Punica_granatum (outgroup)
                         └── (Combretum_imberbe, (Combretum_molle, Combretum_laxum))
 ```
 
-### 3.5 Soporte de ramas (Bootstrap)
+### 3.6 Soporte de ramas (Bootstrap)
 
 Se realizaron tres analisis de soporte:
 
@@ -120,7 +133,7 @@ Se realizaron tres analisis de soporte:
 
 **Nota:** Los valores de soporte de bootstrap estan mapeados en los archivos .tre pero requieren visualizacion en FigTree o software equivalente para su lectura. Los tres metodos de remuestreo muestran topologias congruentes.
 
-### 3.6 Hallazgos principales de parsimonia
+### 3.7 Hallazgos principales de parsimonia
 
 1. ***Conocarpus erectus* NO es hermano de *Laguncularia racemosa*.** *Conocarpus* esta anidado dentro del clado de *Terminalia* + *Buchenavia* + *Bucida*, lejos de *Laguncularia*.
 
@@ -197,7 +210,70 @@ Se configuro y ejecuto una corrida independiente de MrBayes para reproducibilida
 
 Archivos de configuracion: `analyses/mrbayes/mrbayes_commands.nex`
 
-Archivos de salida (cuando termine):
+#### Resultados de la corrida CLI
+
+**Estado:** Completada exitosamente. Convergencia excelente.
+
+| Diagnostico | Valor |
+|-------------|-------|
+| ASDSF (Average Std Dev of Split Frequencies) | < 0.01 |
+| PSRF (todos los parametros) | ~1.000 |
+| ESS minimo | > 2,181 |
+| ESS promedio | > 2,278 |
+
+**Parametros estimados (GTR+I+G):**
+
+| Parametro | Media | 95% HPD |
+|-----------|-------|---------|
+| TL (longitud total) | 1.335 | 1.225 - 1.452 |
+| r(A<->G) | 0.247 | Transiciones dominantes |
+| r(C<->T) | 0.306 | Transiciones dominantes |
+| alpha (gamma shape) | 0.711 | 0.454 - 0.993 |
+| pinvar | 0.327 | 0.213 - 0.423 |
+| pi(A) | 0.286 | 0.271 - 0.300 |
+| pi(C) | 0.199 | 0.187 - 0.212 |
+| pi(G) | 0.204 | 0.191 - 0.216 |
+| pi(T) | 0.311 | 0.296 - 0.326 |
+
+**Topologia del arbol consenso (50% majority-rule):**
+
+```
+Punica_granatum (outgroup)
+└── Lawsonia_inermis (PP=1.00)
+    └── [PP=0.52]
+        ├── (Lagerstroemia_indica, Trapa_natans) (PP=0.96)
+        └── [PP=1.00]
+            ├── (Lumnitzera_littorea, Lumnitzera_racemosa) (PP=1.00)
+            └── [PP=0.97]
+                ├── Laguncularia_racemosa
+                └── [PP=1.00]
+                    ├── [PP=1.00] Conocarpus_erectus + Terminalia clade
+                    │   ├── (Buchenavia_tetraphylla, Bucida_buceras, T. amazonia) (PP=0.73)
+                    │   └── ((T. catappa, T. mantaly) (PP=1.00), T. superba) (PP=1.00)
+                    └── [PP=0.90] Calycopteris + Combretum clade
+                        ├── Calycopteris_floribunda
+                        └── [PP=0.98]
+                            ├── ((Quisqualis_indica, C. imberbe), (C. molle, C. laxum) (PP=1.00)) (PP=0.73)
+                            └── Combretum_fruticosum
+```
+
+**Clados con mayor soporte (PP > 0.95):**
+
+| Clado | PP |
+|-------|-----|
+| Lumnitzera littorea + L. racemosa | 1.00 |
+| T. catappa + T. mantaly | 1.00 |
+| Core Combretaceae (excl. Lumnitzera) | 1.00 |
+| Conocarpus + Terminalia s.l. | 1.00 |
+| Terminalia s.l. (Neotropical + Paleotropical) | 1.00 |
+| Laguncularia hermana del core | 0.97 |
+| Lagerstroemia + Trapa | 0.96 |
+| C. molle + C. laxum | 1.00 |
+| Combretum clade (incl. Quisqualis) | 0.98 |
+
+**Concordancia con parsimonia:** La topologia bayesiana es **congruente** con el arbol de parsimonia (TNT). Ambos metodos recuperan a *Conocarpus erectus* anidado dentro de *Terminalia* s.l., lejos de *Laguncularia racemosa*, confirmando la **polifiilia del clado de manglar** en Combretaceae.
+
+Archivos de salida:
 - `combretaceae_mrbayes.run1.t` / `.run2.t` - Arboles muestreados
 - `combretaceae_mrbayes.run1.p` / `.run2.p` - Parametros muestreados
 - `combretaceae_mrbayes.con.tre` - Arbol consenso con probabilidades posteriores
@@ -259,7 +335,7 @@ Archivos de salida (cuando termine):
 | jModelTest | **Completado** (parcial, 16/88 modelos) | `jmodeltest_results.txt` |
 | TNT (parsimonia) | **Completado** | Multiples .tre |
 | MrBayes (Geneious) | **Completado** | `.geneious`, `.csv` |
-| MrBayes (CLI) | **En ejecucion** (5M gen) | `combretaceae_mrbayes.*` |
+| MrBayes (CLI) | **Completado** (5M gen, PSRF~1.0, ESS>2000) | `combretaceae_mrbayes.*` |
 | BEAST 2 (bayesiano) | **En proceso** (pendiente post-procesamiento) | `.trees`, `.log` |
 | ASAP | **Completado** | Scores, particiones, SVGs |
 

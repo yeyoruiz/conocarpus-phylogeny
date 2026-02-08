@@ -9,8 +9,8 @@ Thumbs.db
 # BEAST state files
 *.xml.state
 
-# TNT binary
-tnt
+# TNT binary (only the binary in project root, not the analyses/tnt/ directory)
+/tnt
 
 # Python cache
 __pycache__/

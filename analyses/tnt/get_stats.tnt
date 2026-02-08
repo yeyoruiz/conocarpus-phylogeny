@@ -1,0 +1,10 @@
+log try_ci.log ;
+mxram 2000 ;
+procedure supermatriz.tnt ;
+outgroup Punica_granatum ;
+hold 100 ;
+mult = replic 100 hold 10 tbr ;
+length ;
+minmax ;
+log / ;
+quit ;
