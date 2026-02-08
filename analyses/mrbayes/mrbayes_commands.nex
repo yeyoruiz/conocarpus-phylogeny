@@ -1,0 +1,41 @@
+#NEXUS
+
+[MrBayes analysis block for Combretaceae phylogeny]
+[Reads data from combretaceae.nex and runs Bayesian inference]
+
+begin mrbayes;
+
+    [Load the data matrix]
+    execute combretaceae.nex;
+
+    [Set substitution model: GTR+I+G (best model from jModelTest)]
+    lset nst=6 rates=invgamma;
+
+    [Set priors]
+    prset brlenspr=unconstrained:exp(10.0);
+    prset shapepr=exp(1.0);
+    prset tratiopr=beta(1.0,1.0);
+    prset statefreqpr=dirichlet(1,1,1,1);
+
+    [Set outgroup]
+    outgroup Punica_granatum;
+
+    [MCMC settings]
+    mcmcp ngen=5000000;
+    mcmcp samplefreq=1000;
+    mcmcp printfreq=10000;
+    mcmcp nruns=2;
+    mcmcp nchains=4;
+    mcmcp savebrlens=yes;
+    mcmcp filename=combretaceae_mrbayes;
+
+    [Run the analysis]
+    mcmc;
+
+    [Summarize parameters (with 25% burn-in)]
+    sump burnin=1250;
+
+    [Summarize trees (with 25% burn-in)]
+    sumt burnin=1250;
+
+end;

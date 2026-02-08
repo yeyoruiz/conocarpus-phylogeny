@@ -1,0 +1,84 @@
+-------------------------- jModeltest 2.1.10 v20160303 --------------------------
+(c) 2011-onwards D. Darriba, G.L. Taboada, R. Doallo and D. Posada,
+(1) Department of Biochemistry, Genetics and Immunology
+    University of Vigo, 36310 Vigo, Spain.
+(2) Department of Electronics and Systems
+    University of A Coruna, 15071 A Coruna, Spain.
+e-mail: ddarriba@udc.es, dposada@uvigo.es
+--------------------------------------------------------------------------------
+ 
+Wed Feb 04 12:13:06 EST 2026
+Mac OS X 15.6, arch: aarch64, bits: 64, numcores: 8
+ 
+--------------------------------------------------------------------------------
+Citation: Darriba D, Taboada GL, Doallo R and Posada D. 2012.
+          "jModelTest 2: more models, new heuristics and parallel computing".
+          Nature Methods 9(8), 772.
+--------------------------------------------------------------------------------
+ 
+jModelTest 2.1.10 v20160303
+Copyright (C) 2011 D. Darriba, G.L. Taboada, R. Doallo and D. Posada
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it under certain
+conditions
+ 
+Notice: This program may contain errors. Please inspect results carefully.
+ 
+WARNING: PhyML binary is not in the list of compatibility: 
+/Applications/jmodeltest-2.1.10/exe/phyml/PhyML_3.0_macOS_i386 v3.0
+Compatible versions: 20130103 20131022 20141009 20141029 20150501 20151222 
+jModelTest will try to continue execution anyway, but it might fail.
+ 
+Arguments = -d supermatriz.fasta -i -g 4 -f -s 11 -AIC -AICc -BIC -DT -v -a -w
+
+Reading data file "supermatriz.fasta"... OK.
+  number of sequences: 20
+  number of sites: 2819
+ 
+ 
+---------------------------------------------------------------
+*                                                             *
+*        COMPUTATION OF LIKELIHOOD SCORES WITH PHYML          *
+*                                                             *
+---------------------------------------------------------------
+ 
+::Settings::
+ 
+ Phyml version = 3.0
+ Phyml binary = PhyML_3.0_macOS_i386
+ Phyml path = /Applications/jmodeltest-2.1.10/exe/phyml/
+ Candidate models = 88
+   number of substitution schemes = 11
+   including models with equal/unequal base frequencies (+F)
+   including models with/without a proportion of invariable sites (+I)
+   including models with/without rate variation among sites (+G) (nCat = 4)
+ Optimized free parameters (K) = substitution parameters + 37 branch lengths + topology 
+ Base tree for likelihood calculations = ML tree
+ Tree topology search operation = BEST
+ 
+ 
+ 
+::Progress::
+ 
+Model 		 Exec. Time 	 Total Time 	 -lnL
+-------------------------------------------------------------------------
+F81+I+G		00h:00:35:02	00h:00:35:02	   12997.1313	 (1/88)
+TIM1+I+G	00h:00:41:06	00h:00:41:06	   12848.1641	 (2/88)
+TPM1uf+I+G	00h:00:42:09	00h:00:42:09	   12850.3665	 (3/88)
+TrN+I+G		00h:00:45:05	00h:00:45:05	   12849.0447	 (4/88)
+TIM2+I+G	00h:00:46:03	00h:00:46:03	   12848.3793	 (5/88)
+TPM3uf+I+G	00h:00:46:08	00h:00:46:09	   12848.2331	 (6/88)
+TPM2uf+I+G	00h:00:47:08	00h:00:47:08	   12850.5195	 (7/88)
+HKY+I+G		00h:00:50:08	00h:00:50:08	   12851.2511	 (8/88)
+TIM3+I+G	00h:00:41:02	00h:01:16:04	   12845.9203	 (9/88)
+JC+I+G		00h:00:37:03	00h:01:22:09	   13066.8291	 (10/88)
+GTR+I+G		00h:00:45:01	00h:01:28:00	   12844.8088	 (11/88)
+TrNef+I+G	00h:00:43:01	00h:01:30:00	   12920.0378	 (12/88)
+TPM1+I+G	00h:00:42:04	00h:01:30:02	   12924.5559	 (13/88)
+TVM+I+G		00h:00:52:09	00h:01:34:05	   12847.0514	 (14/88)
+K80+I+G		00h:00:49:04	00h:01:35:07	   12924.8333	 (15/88)
+TPM2+I+G	00h:00:48:03	00h:01:39:01	   12922.6053	 (16/88)
+F81+G		00h:00:17:07	00h:01:53:04	   13007.7058	 (17/88)
+ML tree for HKY+G is invalid. Please, check the PhyML log file at /var/folders/5j/g5b3g4jj0zsfn719fy8_655h0000gn/T/jmodeltest-phyml12257271960304664332.log or run PhyML alone for getting more information: 
+ 
+Computation of likelihood scores discontinued ...

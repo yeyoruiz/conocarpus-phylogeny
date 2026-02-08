@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg"  width="345" height="285" >
+<g>
+<line x1="40" y1="40"  x2="40" y2="240" style=" stroke: black;"/>
+<line x1="40" y1="240"  x2="340" y2="240" style=" stroke: black;"/>
+<line x1="37" y1="220"  x2="40" y2="220" style=" stroke: black;"/>
+<text x="8" y="220" style="font-family: monospace; font-size: 8px;">0.05</text>
+<line x1="37" y1="200"  x2="40" y2="200" style=" stroke: black;"/>
+<text x="8" y="200" style="font-family: monospace; font-size: 8px;">0.10</text>
+<line x1="37" y1="180"  x2="40" y2="180" style=" stroke: black;"/>
+<text x="8" y="180" style="font-family: monospace; font-size: 8px;">0.14</text>
+<line x1="37" y1="160"  x2="40" y2="160" style=" stroke: black;"/>
+<text x="8" y="160" style="font-family: monospace; font-size: 8px;">0.19</text>
+<line x1="37" y1="140"  x2="40" y2="140" style=" stroke: black;"/>
+<text x="8" y="140" style="font-family: monospace; font-size: 8px;">0.24</text>
+<line x1="37" y1="120"  x2="40" y2="120" style=" stroke: black;"/>
+<text x="8" y="120" style="font-family: monospace; font-size: 8px;">0.29</text>
+<line x1="37" y1="100"  x2="40" y2="100" style=" stroke: black;"/>
+<text x="8" y="100" style="font-family: monospace; font-size: 8px;">0.33</text>
+<line x1="37" y1="80"  x2="40" y2="80" style=" stroke: black;"/>
+<text x="8" y="80" style="font-family: monospace; font-size: 8px;">0.38</text>
+<line x1="37" y1="60"  x2="40" y2="60" style=" stroke: black;"/>
+<text x="8" y="60" style="font-family: monospace; font-size: 8px;">0.43</text>
+<line x1="37" y1="40"  x2="40" y2="40" style=" stroke: black;"/>
+<text x="8" y="40" style="font-family: monospace; font-size: 8px;">0.48</text>
+<line x1="70" y1="240"  x2="70" y2="245" style=" stroke: black;"/>
+<text x="70" y="245" transform="rotate(90,70,245)" style="font-family: monospace; font-size: 8px;">19</text>
+<line x1="100" y1="240"  x2="100" y2="245" style=" stroke: black;"/>
+<text x="100" y="245" transform="rotate(90,100,245)" style="font-family: monospace; font-size: 8px;">38</text>
+<line x1="130" y1="240"  x2="130" y2="245" style=" stroke: black;"/>
+<text x="130" y="245" transform="rotate(90,130,245)" style="font-family: monospace; font-size: 8px;">57</text>
+<line x1="160" y1="240"  x2="160" y2="245" style=" stroke: black;"/>
+<text x="160" y="245" transform="rotate(90,160,245)" style="font-family: monospace; font-size: 8px;">76</text>
+<line x1="190" y1="240"  x2="190" y2="245" style=" stroke: black;"/>
+<text x="190" y="245" transform="rotate(90,190,245)" style="font-family: monospace; font-size: 8px;">95</text>
+<line x1="220" y1="240"  x2="220" y2="245" style=" stroke: black;"/>
+<text x="220" y="245" transform="rotate(90,220,245)" style="font-family: monospace; font-size: 8px;">114</text>
+<line x1="250" y1="240"  x2="250" y2="245" style=" stroke: black;"/>
+<text x="250" y="245" transform="rotate(90,250,245)" style="font-family: monospace; font-size: 8px;">133</text>
+<line x1="280" y1="240"  x2="280" y2="245" style=" stroke: black;"/>
+<text x="280" y="245" transform="rotate(90,280,245)" style="font-family: monospace; font-size: 8px;">152</text>
+<line x1="310" y1="240"  x2="310" y2="245" style=" stroke: black;"/>
+<text x="310" y="245" transform="rotate(90,310,245)" style="font-family: monospace; font-size: 8px;">171</text>
+<line x1="340" y1="240"  x2="340" y2="245" style=" stroke: black;"/>
+<text x="340" y="245" transform="rotate(90,340,245)" style="font-family: monospace; font-size: 8px;">190</text>
+<text x="5" y="8" style="font-family: monospace; font-size: 10px;">Dist. Dt</text>
+<text x="320" y="230" style="font-family: monospace; font-size: 10px;">Rank</text>
+<polyline style="stroke: #00a5eb; stroke-width:1;fill: none;"  points="40 233,41 232,43 232,44 230,46 229,47 228,49 228,51 228,52 226,54 225,55 225,57 224,58 224,60 224,62 223,63 223,65 223,66 223,68 223,70 222,71 222,73 222,74 221,76 220,77 220,79 220,81 218,82 218,84 217,85 216,87 216,88 215,90 215,92 215,93 215,95 215,96 214,98 213,100 213,101 213,103 213,104 212,106 212,107 212,109 212,111 212,112 212,114 212,115 211,117 211,118 211,120 210,122 210,123 209,125 209,126 209,128 209,130 209,131 208,133 208,134 208,136 208,137 207,139 207,141 207,142 206,144 205,145 205,147 205,148 205,150 204,152 204,153 204,155 204,156 204,158 204,160 204,161 203,163 203,164 203,166 203,167 203,169 203,171 203,172 202,174 202,175 202,177 201,178 201,180 200,182 200,183 199,185 199,186 199,188 198,190 198,191 198,193 198,194 198,196 198,197 197,199 197,201 197,202 197,204 196,205 196,207 196,208 195,210 194,212 194,213 194,215 193,216 193,218 191,220 191,221 191,223 187,224 185,226 184,227 183,229 182,231 171,232 167,234 166,235 165,237 163,238 160,240 156,242 153,243 150,245 149,246 148,248 147,250 146,251 146,253 138,254 134,256 133,257 133,259 132,261 131,262 129,264 129,265 129,267 128,268 128,270 128,272 127,273 127,275 127,276 127,278 126,280 126,281 126,283 126,284 126,286 125,287 125,289 125,291 124,292 124,294 124,295 124,297 124,298 123,300 123,302 122,303 122,305 121,306 121,308 119,310 119,311 115,313 110,314 110,316 103,317 94,319 91,321 90,322 90,324 88,325 85,327 85,328 84,330 83,332 74,333 71,335 70,336 68,338 40"/><line id="CutDis10" visibility="hidden" x1="40" y1="223"  x2="340" y2="223" style=" stroke: red;"/>
+<line id="CutDis9" visibility="hidden" x1="40" y1="197"  x2="340" y2="197" style=" stroke: red;"/>
+<line id="CutDis8" visibility="hidden" x1="40" y1="233"  x2="340" y2="233" style=" stroke: red;"/>
+<line id="CutDis7" visibility="hidden" x1="40" y1="224"  x2="340" y2="224" style=" stroke: red;"/>
+<line id="CutDis6" visibility="hidden" x1="40" y1="229"  x2="340" y2="229" style=" stroke: red;"/>
+<line id="CutDis5" visibility="hidden" x1="40" y1="228"  x2="340" y2="228" style=" stroke: red;"/>
+<line id="CutDis4" visibility="hidden" x1="40" y1="229"  x2="340" y2="229" style=" stroke: red;"/>
+<line id="CutDis3" visibility="hidden" x1="40" y1="175"  x2="340" y2="175" style=" stroke: red;"/>
+<line id="CutDis2" visibility="hidden" x1="40" y1="166"  x2="340" y2="166" style=" stroke: red;"/>
+<line id="CutDis1" visibility="hidden" x1="40" y1="184"  x2="340" y2="184" style=" stroke: red;"/>
+
+</g>
+</svg>

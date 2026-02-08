@@ -1,0 +1,242 @@
+<svg xmlns="http://www.w3.org/2000/svg"  width="2225" height="460" >
+  <text x="5" y="50"  id="specie_0"  style="color:black;font-size :15;font-family = monospace;" >Buchenavia_tetraphylla Concatenation of 5 sequences </text>
+  <text x="5" y="150"  id="specie_5"  style="color:black;font-size :15;font-family = monospace;" >Bucida_buceras Concatenation of 5 sequences </text>
+  <text x="5" y="90"  id="specie_2"  style="color:black;font-size :15;font-family = monospace;" >Terminalia_catappa Concatenation of 5 sequences </text>
+  <text x="5" y="110"  id="specie_3"  style="color:black;font-size :15;font-family = monospace;" >Terminalia_mantaly Concatenation of 5 sequences </text>
+  <text x="5" y="130"  id="specie_4"  style="color:black;font-size :15;font-family = monospace;" >Terminalia_superba Concatenation of 5 sequences </text>
+  <text x="5" y="70"  id="specie_1"  style="color:black;font-size :15;font-family = monospace;" >Terminalia_amazonia Concatenation of 5 sequences </text>
+  <text x="5" y="330"  id="specie_14"  style="color:black;font-size :15;font-family = monospace;" >Conocarpus_erectus Concatenation of 5 sequences </text>
+  <text x="5" y="350"  id="specie_15"  style="color:black;font-size :15;font-family = monospace;" >Calycopteris_floribunda Concatenation of 5 sequences </text>
+  <text x="5" y="270"  id="specie_11"  style="color:black;font-size :15;font-family = monospace;" >Lumnitzera_littorea Concatenation of 5 sequences </text>
+  <text x="5" y="290"  id="specie_12"  style="color:black;font-size :15;font-family = monospace;" >Lumnitzera_racemosa Concatenation of 5 sequences </text>
+  <text x="5" y="170"  id="specie_6"  style="color:black;font-size :15;font-family = monospace;" >Quisqualis_indica Concatenation of 5 sequences </text>
+  <text x="5" y="210"  id="specie_8"  style="color:black;font-size :15;font-family = monospace;" >Combretum_imberbe Concatenation of 5 sequences </text>
+  <text x="5" y="230"  id="specie_9"  style="color:black;font-size :15;font-family = monospace;" >Combretum_molle Concatenation of 5 sequences </text>
+  <text x="5" y="250"  id="specie_10"  style="color:black;font-size :15;font-family = monospace;" >Combretum_laxum Concatenation of 5 sequences </text>
+  <text x="5" y="310"  id="specie_13"  style="color:black;font-size :15;font-family = monospace;" >Laguncularia_racemosa Concatenation of 5 sequences </text>
+  <text x="5" y="390"  id="specie_17"  style="color:black;font-size :15;font-family = monospace;" >Lagerstroemia_indica Concatenation of 5 sequences </text>
+  <text x="5" y="410"  id="specie_18"  style="color:black;font-size :15;font-family = monospace;" >Lawsonia_inermis Concatenation of 5 sequences </text>
+  <text x="5" y="430"  id="specie_19"  style="color:black;font-size :15;font-family = monospace;" >Punica_granatum Concatenation of 5 sequences </text>
+  <text x="5" y="370"  id="specie_16"  style="color:black;font-size :15;font-family = monospace;" >Trapa_natans Concatenation of 5 sequences </text>
+  <text x="5" y="190"  id="specie_7"  style="color:black;font-size :15;font-family = monospace;" >Combretum_fruticosum Concatenation of 5 sequences </text>
+<text x="10" y="10" style="color:black;font-size :12;font-family = monospace;">Nb subsets/asap score</text>
+<text x="10" y="25" style="color:black;font-size :12;font-family = monospace;">Rank</text>
+<text x="399" y="10"   style="color:black;font-size :12px;font-family = monospace;" >[19/10.5] </text>
+<text x="399" y="22"   style="color:black;font-size :10px;font-family = monospace;" >[8] </text>
+<rect x="399" y="30" width="30" height="20" style="fill:#FF851B;stroke:black;" />
+<rect x="399" y="130" width="30" height="20" style="fill:#af1661;stroke:black;" />
+<rect x="399" y="70" width="30" height="20" style="fill:#2ECC40;stroke:black;" />
+<rect x="399" y="90" width="30" height="20" style="fill:#01FF70;stroke:black;" />
+<rect x="399" y="110" width="30" height="20" style="fill:#FFDC00;stroke:black;" />
+<rect x="399" y="50" width="30" height="20" style="fill:#FF4136;stroke:black;" />
+<rect x="399" y="310" width="30" height="20" style="fill:#39CCCC;stroke:black;" />
+<rect x="399" y="330" width="30" height="20" style="fill:#3D9970;stroke:black;" />
+<rect x="399" y="250" width="30" height="40" style="fill:#666699;stroke:black;" />
+  <text x="401" y="270">2 </text><rect x="399" y="150" width="30" height="20" style="fill:#F012BE;stroke:black;" />
+<rect x="399" y="170" width="30" height="20" style="fill:#B10DC9;stroke:black;" />
+<rect x="399" y="190" width="30" height="20" style="fill:#EFEFEF;stroke:black;" />
+<rect x="399" y="210" width="30" height="20" style="fill:#AAAAAA;stroke:black;" />
+<rect x="399" y="230" width="30" height="20" style="fill:#DDDDDD;stroke:black;" />
+<rect x="399" y="290" width="30" height="20" style="fill:#7FDBFF;stroke:black;" />
+<rect x="399" y="370" width="30" height="20" style="fill:#01FF70;stroke:black;" />
+<rect x="399" y="390" width="30" height="20" style="fill:#FFDC00;stroke:black;" />
+<rect x="399" y="410" width="30" height="20" style="fill:#FF851B;stroke:black;" />
+<rect x="399" y="350" width="30" height="20" style="fill:#2ECC40;stroke:black;" />
+<text x="449" y="10"   style="color:black;font-size :12px;font-family = monospace;" >[16/5.0] </text>
+<text x="449" y="22"   style="color:black;font-size :10px;font-family = monospace;" >[4] </text>
+<rect x="449" y="30" width="30" height="40" style="fill:#FF851B;stroke:black;" />
+  <text x="451" y="50">2 </text><rect x="449" y="130" width="30" height="20" style="fill:#af1661;stroke:black;" />
+<rect x="449" y="70" width="30" height="40" style="fill:#2ECC40;stroke:black;" />
+  <text x="451" y="90">2 </text><rect x="449" y="110" width="30" height="20" style="fill:#FFDC00;stroke:black;" />
+<rect x="449" y="310" width="30" height="20" style="fill:#39CCCC;stroke:black;" />
+<rect x="449" y="330" width="30" height="20" style="fill:#3D9970;stroke:black;" />
+<rect x="449" y="250" width="30" height="40" style="fill:#666699;stroke:black;" />
+  <text x="451" y="270">2 </text><rect x="449" y="150" width="30" height="40" style="fill:#F012BE;stroke:black;" />
+  <text x="451" y="170">2 </text><rect x="449" y="190" width="30" height="20" style="fill:#EFEFEF;stroke:black;" />
+<rect x="449" y="210" width="30" height="20" style="fill:#AAAAAA;stroke:black;" />
+<rect x="449" y="230" width="30" height="20" style="fill:#DDDDDD;stroke:black;" />
+<rect x="449" y="290" width="30" height="20" style="fill:#7FDBFF;stroke:black;" />
+<rect x="449" y="370" width="30" height="20" style="fill:#01FF70;stroke:black;" />
+<rect x="449" y="390" width="30" height="20" style="fill:#FFDC00;stroke:black;" />
+<rect x="449" y="410" width="30" height="20" style="fill:#FF851B;stroke:black;" />
+<rect x="449" y="350" width="30" height="20" style="fill:#2ECC40;stroke:black;" />
+<text x="499" y="10"   style="color:black;font-size :12px;font-family = monospace;" >[15/10.0] </text>
+<text x="499" y="22"   style="color:black;font-size :10px;font-family = monospace;" >[6] </text>
+<rect x="499" y="30" width="30" height="40" style="fill:#FF851B;stroke:black;" />
+  <text x="501" y="50">2 </text><rect x="499" y="70" width="30" height="60" style="fill:#2ECC40;stroke:black;" />
+  <text x="501" y="90">3 </text><rect x="499" y="130" width="30" height="20" style="fill:#af1661;stroke:black;" />
+<rect x="499" y="310" width="30" height="20" style="fill:#39CCCC;stroke:black;" />
+<rect x="499" y="330" width="30" height="20" style="fill:#3D9970;stroke:black;" />
+<rect x="499" y="250" width="30" height="40" style="fill:#666699;stroke:black;" />
+  <text x="501" y="270">2 </text><rect x="499" y="150" width="30" height="40" style="fill:#F012BE;stroke:black;" />
+  <text x="501" y="170">2 </text><rect x="499" y="190" width="30" height="20" style="fill:#EFEFEF;stroke:black;" />
+<rect x="499" y="210" width="30" height="20" style="fill:#AAAAAA;stroke:black;" />
+<rect x="499" y="230" width="30" height="20" style="fill:#DDDDDD;stroke:black;" />
+<rect x="499" y="290" width="30" height="20" style="fill:#7FDBFF;stroke:black;" />
+<rect x="499" y="370" width="30" height="20" style="fill:#01FF70;stroke:black;" />
+<rect x="499" y="390" width="30" height="20" style="fill:#FFDC00;stroke:black;" />
+<rect x="499" y="410" width="30" height="20" style="fill:#FF851B;stroke:black;" />
+<rect x="499" y="350" width="30" height="20" style="fill:#2ECC40;stroke:black;" />
+<text x="549" y="10"   style="color:black;font-size :12px;font-family = monospace;" >[14/7.5] </text>
+<text x="549" y="22"   style="color:black;font-size :10px;font-family = monospace;" >[5] </text>
+<rect x="549" y="30" width="30" height="100" style="fill:#2ECC40;stroke:black;" />
+  <text x="551" y="50">5 </text><rect x="549" y="130" width="30" height="20" style="fill:#af1661;stroke:black;" />
+<rect x="549" y="310" width="30" height="20" style="fill:#39CCCC;stroke:black;" />
+<rect x="549" y="330" width="30" height="20" style="fill:#3D9970;stroke:black;" />
+<rect x="549" y="250" width="30" height="40" style="fill:#666699;stroke:black;" />
+  <text x="551" y="270">2 </text><rect x="549" y="150" width="30" height="40" style="fill:#F012BE;stroke:black;" />
+  <text x="551" y="170">2 </text><rect x="549" y="190" width="30" height="20" style="fill:#EFEFEF;stroke:black;" />
+<rect x="549" y="210" width="30" height="20" style="fill:#AAAAAA;stroke:black;" />
+<rect x="549" y="230" width="30" height="20" style="fill:#DDDDDD;stroke:black;" />
+<rect x="549" y="290" width="30" height="20" style="fill:#7FDBFF;stroke:black;" />
+<rect x="549" y="370" width="30" height="20" style="fill:#01FF70;stroke:black;" />
+<rect x="549" y="390" width="30" height="20" style="fill:#FFDC00;stroke:black;" />
+<rect x="549" y="410" width="30" height="20" style="fill:#FF851B;stroke:black;" />
+<rect x="549" y="350" width="30" height="20" style="fill:#2ECC40;stroke:black;" />
+<text x="599" y="10"   style="color:black;font-size :12px;font-family = monospace;" >[12/10.5] </text>
+<text x="599" y="22"   style="color:black;font-size :10px;font-family = monospace;" >[7] </text>
+<rect x="599" y="30" width="30" height="120" style="fill:#2ECC40;stroke:black;" />
+  <text x="601" y="50">6 </text><rect x="599" y="310" width="30" height="20" style="fill:#39CCCC;stroke:black;" />
+<rect x="599" y="330" width="30" height="20" style="fill:#3D9970;stroke:black;" />
+<rect x="599" y="250" width="30" height="40" style="fill:#666699;stroke:black;" />
+  <text x="601" y="270">2 </text><rect x="599" y="150" width="30" height="60" style="fill:#F012BE;stroke:black;" />
+  <text x="601" y="170">3 </text><rect x="599" y="210" width="30" height="20" style="fill:#AAAAAA;stroke:black;" />
+<rect x="599" y="230" width="30" height="20" style="fill:#DDDDDD;stroke:black;" />
+<rect x="599" y="290" width="30" height="20" style="fill:#7FDBFF;stroke:black;" />
+<rect x="599" y="370" width="30" height="20" style="fill:#01FF70;stroke:black;" />
+<rect x="599" y="390" width="30" height="20" style="fill:#FFDC00;stroke:black;" />
+<rect x="599" y="410" width="30" height="20" style="fill:#FF851B;stroke:black;" />
+<rect x="599" y="350" width="30" height="20" style="fill:#2ECC40;stroke:black;" />
+<text x="649" y="10"   style="color:black;font-size :12px;font-family = monospace;" >[11/11.5] </text>
+<text x="649" y="22"   style="color:black;font-size :10px;font-family = monospace;" >[10] </text>
+<rect x="649" y="30" width="30" height="120" style="fill:#2ECC40;stroke:black;" />
+  <text x="651" y="50">6 </text><rect x="649" y="310" width="30" height="20" style="fill:#39CCCC;stroke:black;" />
+<rect x="649" y="330" width="30" height="20" style="fill:#3D9970;stroke:black;" />
+<rect x="649" y="250" width="30" height="40" style="fill:#666699;stroke:black;" />
+  <text x="651" y="270">2 </text><rect x="649" y="150" width="30" height="80" style="fill:#F012BE;stroke:black;" />
+  <text x="651" y="170">4 </text><rect x="649" y="230" width="30" height="20" style="fill:#DDDDDD;stroke:black;" />
+<rect x="649" y="290" width="30" height="20" style="fill:#7FDBFF;stroke:black;" />
+<rect x="649" y="370" width="30" height="20" style="fill:#01FF70;stroke:black;" />
+<rect x="649" y="390" width="30" height="20" style="fill:#FFDC00;stroke:black;" />
+<rect x="649" y="410" width="30" height="20" style="fill:#FF851B;stroke:black;" />
+<rect x="649" y="350" width="30" height="20" style="fill:#2ECC40;stroke:black;" />
+<text x="699" y="10"   style="color:black;font-size :12px;font-family = monospace;" >[5/11.0] </text>
+<text x="699" y="22"   style="color:black;font-size :10px;font-family = monospace;" >[9] </text>
+<rect x="699" y="30" width="30" height="320" style="fill:#2ECC40;stroke:black;" />
+  <text x="701" y="50">16 </text><rect x="699" y="370" width="30" height="20" style="fill:#01FF70;stroke:black;" />
+<rect x="699" y="390" width="30" height="20" style="fill:#FFDC00;stroke:black;" />
+<rect x="699" y="410" width="30" height="20" style="fill:#FF851B;stroke:black;" />
+<rect x="699" y="350" width="30" height="20" style="fill:#2ECC40;stroke:black;" />
+<text x="749" y="10"   style="color:black;font-size :12px;font-family = monospace;" >[4/2.0] </text>
+<text x="749" y="22"   style="color:black;font-size :10px;font-family = monospace;" >[1] </text>
+<rect x="749" y="30" width="30" height="320" style="fill:#2ECC40;stroke:black;" />
+  <text x="751" y="50">16 </text><rect x="749" y="350" width="30" height="20" style="fill:#2ECC40;stroke:black;" />
+<rect x="749" y="370" width="30" height="40" style="fill:#01FF70;stroke:black;" />
+  <text x="751" y="390">2 </text><rect x="749" y="410" width="30" height="20" style="fill:#FF851B;stroke:black;" />
+<text x="799" y="10"   style="color:black;font-size :12px;font-family = monospace;" >[3/2.0] </text>
+<text x="799" y="22"   style="color:black;font-size :10px;font-family = monospace;" >[3] </text>
+<rect x="799" y="30" width="30" height="340" style="fill:#2ECC40;stroke:black;" />
+  <text x="801" y="50">17 </text><rect x="799" y="370" width="30" height="40" style="fill:#01FF70;stroke:black;" />
+  <text x="801" y="390">2 </text><rect x="799" y="410" width="30" height="20" style="fill:#FF851B;stroke:black;" />
+<text x="849" y="10"   style="color:black;font-size :12px;font-family = monospace;" >[2/2.0] </text>
+<text x="849" y="22"   style="color:black;font-size :10px;font-family = monospace;" >[2] </text>
+<rect x="849" y="30" width="30" height="380" style="fill:#2ECC40;stroke:black;" />
+  <text x="851" y="50">19 </text><rect x="849" y="410" width="30" height="20" style="fill:#FF851B;stroke:black;" />
+ <line x1="934" y1="260" x2="972" y2="260" style="stroke:black;stroke-width:1" />
+ <line x1="934" y1="280" x2="972" y2="280" style="stroke:black;stroke-width:1" />
+ <line x1="972" y1="260" x2="972" y2="280" style="stroke:black;stroke-width:1" />
+ <line x1="934" y1="160" x2="974" y2="160" style="stroke:black;stroke-width:1" />
+ <line x1="934" y1="180" x2="974" y2="180" style="stroke:black;stroke-width:1" />
+ <line x1="974" y1="160" x2="974" y2="180" style="stroke:black;stroke-width:1" />
+ <line x1="934" y1="80" x2="975" y2="80" style="stroke:black;stroke-width:1" />
+ <line x1="934" y1="100" x2="975" y2="100" style="stroke:black;stroke-width:1" />
+ <line x1="975" y1="80" x2="975" y2="100" style="stroke:black;stroke-width:1" />
+ <line x1="934" y1="40" x2="991" y2="40" style="stroke:black;stroke-width:1" />
+ <line x1="934" y1="60" x2="991" y2="60" style="stroke:black;stroke-width:1" />
+ <line x1="991" y1="40" x2="991" y2="60" style="stroke:black;stroke-width:1" />
+ <line x1="975" y1="90" x2="996" y2="90" style="stroke:black;stroke-width:1" />
+ <line x1="934" y1="120" x2="996" y2="120" style="stroke:black;stroke-width:1" />
+ <line x1="996" y1="90" x2="996" y2="120" style="stroke:black;stroke-width:1" />
+ <line x1="991" y1="50" x2="999" y2="50" style="stroke:black;stroke-width:1" />
+ <line x1="996" y1="105" x2="999" y2="105" style="stroke:black;stroke-width:1" />
+ <line x1="999" y1="50" x2="999" y2="105" style="stroke:black;stroke-width:1" />
+ <line x1="974" y1="170" x2="1001" y2="170" style="stroke:black;stroke-width:1" />
+ <line x1="934" y1="200" x2="1001" y2="200" style="stroke:black;stroke-width:1" />
+ <line x1="1001" y1="170" x2="1001" y2="200" style="stroke:black;stroke-width:1" />
+ <line x1="999" y1="77" x2="1016" y2="77" style="stroke:black;stroke-width:1" />
+ <line x1="934" y1="140" x2="1016" y2="140" style="stroke:black;stroke-width:1" />
+ <line x1="1016" y1="77" x2="1016" y2="140" style="stroke:black;stroke-width:1" />
+ <line x1="1001" y1="185" x2="1028" y2="185" style="stroke:black;stroke-width:1" />
+ <line x1="934" y1="220" x2="1028" y2="220" style="stroke:black;stroke-width:1" />
+ <line x1="1028" y1="185" x2="1028" y2="220" style="stroke:black;stroke-width:1" />
+ <line x1="1028" y1="202" x2="1034" y2="202" style="stroke:black;stroke-width:1" />
+ <line x1="934" y1="240" x2="1034" y2="240" style="stroke:black;stroke-width:1" />
+ <line x1="1034" y1="202" x2="1034" y2="240" style="stroke:black;stroke-width:1" />
+ <line x1="1016" y1="108" x2="1058" y2="108" style="stroke:black;stroke-width:1" />
+ <line x1="1034" y1="221" x2="1058" y2="221" style="stroke:black;stroke-width:1" />
+ <line x1="1058" y1="108" x2="1058" y2="221" style="stroke:black;stroke-width:1" />
+ <line x1="1058" y1="164" x2="1061" y2="164" style="stroke:black;stroke-width:1" />
+ <line x1="972" y1="270" x2="1061" y2="270" style="stroke:black;stroke-width:1" />
+ <line x1="1061" y1="164" x2="1061" y2="270" style="stroke:black;stroke-width:1" />
+ <line x1="1061" y1="217" x2="1077" y2="217" style="stroke:black;stroke-width:1" />
+ <line x1="934" y1="300" x2="1077" y2="300" style="stroke:black;stroke-width:1" />
+ <line x1="1077" y1="217" x2="1077" y2="300" style="stroke:black;stroke-width:1" />
+ <line x1="1077" y1="258" x2="1084" y2="258" style="stroke:black;stroke-width:1" />
+ <line x1="934" y1="320" x2="1084" y2="320" style="stroke:black;stroke-width:1" />
+ <line x1="1084" y1="258" x2="1084" y2="320" style="stroke:black;stroke-width:1" />
+ <line x1="1084" y1="289" x2="1107" y2="289" style="stroke:black;stroke-width:1" />
+ <line x1="934" y1="340" x2="1107" y2="340" style="stroke:black;stroke-width:1" />
+ <line x1="1107" y1="289" x2="1107" y2="340" style="stroke:black;stroke-width:1" />
+ <line x1="934" y1="380" x2="1251" y2="380" style="stroke:black;stroke-width:1" />
+ <line x1="934" y1="400" x2="1251" y2="400" style="stroke:black;stroke-width:1" />
+ <line x1="1251" y1="380" x2="1251" y2="400" style="stroke:black;stroke-width:1" />
+ <line x1="1107" y1="314" x2="1260" y2="314" style="stroke:black;stroke-width:1" />
+ <line x1="934" y1="360" x2="1260" y2="360" style="stroke:black;stroke-width:1" />
+ <line x1="1260" y1="314" x2="1260" y2="360" style="stroke:black;stroke-width:1" />
+ <line x1="1260" y1="337" x2="1357" y2="337" style="stroke:black;stroke-width:1" />
+ <line x1="1251" y1="390" x2="1357" y2="390" style="stroke:black;stroke-width:1" />
+ <line x1="1357" y1="337" x2="1357" y2="390" style="stroke:black;stroke-width:1" />
+ <line x1="1357" y1="363" x2="1363" y2="363" style="stroke:black;stroke-width:1" />
+ <line x1="934" y1="420" x2="1363" y2="420" style="stroke:black;stroke-width:1" />
+ <line x1="1363" y1="363" x2="1363" y2="420" style="stroke:black;stroke-width:1" />
+ <line x1="1363" y1="391" x2="1463" y2="391" style="stroke:black;stroke-width:1" />
+ <line x1="930" y1="40" x2="934" y2="40" style="stroke:black;stroke-width:1" />
+ <line x1="930" y1="140" x2="934" y2="140" style="stroke:black;stroke-width:1" />
+ <line x1="930" y1="80" x2="934" y2="80" style="stroke:black;stroke-width:1" />
+ <line x1="930" y1="100" x2="934" y2="100" style="stroke:black;stroke-width:1" />
+ <line x1="930" y1="120" x2="934" y2="120" style="stroke:black;stroke-width:1" />
+ <line x1="930" y1="60" x2="934" y2="60" style="stroke:black;stroke-width:1" />
+ <line x1="930" y1="320" x2="934" y2="320" style="stroke:black;stroke-width:1" />
+ <line x1="930" y1="340" x2="934" y2="340" style="stroke:black;stroke-width:1" />
+ <line x1="930" y1="260" x2="934" y2="260" style="stroke:black;stroke-width:1" />
+ <line x1="930" y1="280" x2="934" y2="280" style="stroke:black;stroke-width:1" />
+ <line x1="930" y1="160" x2="934" y2="160" style="stroke:black;stroke-width:1" />
+ <line x1="930" y1="200" x2="934" y2="200" style="stroke:black;stroke-width:1" />
+ <line x1="930" y1="220" x2="934" y2="220" style="stroke:black;stroke-width:1" />
+ <line x1="930" y1="240" x2="934" y2="240" style="stroke:black;stroke-width:1" />
+ <line x1="930" y1="300" x2="934" y2="300" style="stroke:black;stroke-width:1" />
+ <line x1="930" y1="380" x2="934" y2="380" style="stroke:black;stroke-width:1" />
+ <line x1="930" y1="400" x2="934" y2="400" style="stroke:black;stroke-width:1" />
+ <line x1="930" y1="420" x2="934" y2="420" style="stroke:black;stroke-width:1" />
+ <line x1="930" y1="360" x2="934" y2="360" style="stroke:black;stroke-width:1" />
+ <line x1="930" y1="180" x2="934" y2="180" style="stroke:black;stroke-width:1" />
+ <circle id="Pval20"  cx="972" cy="270" r="7" fill="#CCCCCC" />
+ <circle id="Pval21"  cx="974" cy="170" r="7" fill="#CCCCCC" />
+ <circle id="Pval22"  cx="975" cy="90" r="7" fill="#CCCCCC" />
+ <circle id="Pval23"  cx="991" cy="50" r="7" fill="#CCCCCC" />
+ <circle id="Pval24"  cx="996" cy="105" r="7" fill="#FFFF00" />
+ <circle id="Pval25"  cx="999" cy="77" r="7" fill="#FFFF00" />
+ <circle id="Pval26"  cx="1001" cy="185" r="7" fill="#FFFF00" />
+ <circle id="Pval27"  cx="1016" cy="108" r="7" fill="#FFFF00" />
+ <circle id="Pval28"  cx="1028" cy="202" r="7" fill="#FFFF00" />
+ <circle id="Pval29"  cx="1034" cy="221" r="7" fill="#FFFF00" />
+ <circle id="Pval30"  cx="1058" cy="164" r="7" fill="#FFFF00" />
+ <circle id="Pval31"  cx="1061" cy="217" r="7" fill="#FFFF00" />
+ <circle id="Pval32"  cx="1077" cy="258" r="7" fill="#FFFF00" />
+ <circle id="Pval33"  cx="1084" cy="289" r="7" fill="#FFFF00" />
+ <circle id="Pval34"  cx="1107" cy="314" r="7" fill="#FFFF00" />
+ <circle id="Pval35"  cx="1251" cy="390" r="7" fill="#CCCCCC" />
+ <circle id="Pval36"  cx="1260" cy="337" r="7" fill="#FFFF00" />
+ <circle id="Pval37"  cx="1357" cy="363" r="7" fill="#FFFF00" />
+ <circle id="Pval38"  cx="1363" cy="391" r="7" fill="#FFFF00" />
+</svg>

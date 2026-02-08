@@ -1,0 +1,9 @@
+#NEXUS
+
+begin trees ; 
+tree tnt_1 = [&U] 
+(Punica_granatum,((Trapa_natans,((Laguncularia_racemosa,(Calycopteris_floribunda,((Conocarpus_erectus,((Terminalia_amazonia,(Buchenavia_tetraphylla,Bucida_buceras)),(Terminalia_superba,(Terminalia_catappa,Terminalia_mantaly)))),((Quisqualis_indica,Combretum_fruticosum),(Combretum_imberbe,(Combretum_molle,Combretum_laxum)))))),(Lumnitzera_littorea,Lumnitzera_racemosa))),(Lagerstroemia_indica,Lawsonia_inermis)));
+tree tnt_2 = [&U] 
+(Punica_granatum,((Trapa_natans,((Laguncularia_racemosa,(Calycopteris_floribunda,((Conocarpus_erectus,((Terminalia_amazonia,(Buchenavia_tetraphylla,Bucida_buceras)),(Terminalia_superba,(Terminalia_catappa,Terminalia_mantaly)))),((Quisqualis_indica,Combretum_fruticosum),(Combretum_imberbe,(Combretum_molle,Combretum_laxum)))))),(Lumnitzera_littorea,Lumnitzera_racemosa))),(Lagerstroemia_indica,Lawsonia_inermis)));
+
+end ; 

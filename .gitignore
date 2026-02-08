@@ -1,0 +1,35 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large binary files (do not upload to GitHub)
+*.dmg
+*.geneious
+
+# BEAST state files
+*.xml.state
+
+# TNT binary
+tnt
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Large sequence directories (raw downloads)
+combretaceae_sequences_final/
+
+# MrBayes checkpoint and intermediate files
+# (commit final results like .con.tre, .trprobs, .parts after completion)
+*.ckp
+*.ckp~
+analyses/mrbayes/*.run*.t
+analyses/mrbayes/*.run*.p
+analyses/mrbayes/*.mcmc
+analyses/mrbayes/mrbayes_run.log
+analyses/mrbayes/monitor.log
